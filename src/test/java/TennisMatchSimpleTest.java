@@ -43,7 +43,6 @@ public class TennisMatchSimpleTest {
                 "Player A : 30 / Player B : 15\n" +
                 "Player A : 30 / Player B : 30\n" +
                 "Player A : 40 / Player B : 30\n" +
-                "Player A : 40 / Player B : 40\n" +
                 "Player A wins the game";
         TennisMatchSimple tennisMatchSimple = new TennisMatchSimple();
         String actual = tennisMatchSimple.getScore(given);
